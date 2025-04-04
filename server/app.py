@@ -1,7 +1,6 @@
 # server/app.py
 from flask import Flask, make_response
 from flask_migrate import Migrate
-
 from models import db, Zookeeper, Enclosure, Animal
 
 app = Flask(__name__)
